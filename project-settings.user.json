@@ -1,0 +1,50 @@
+{
+  "serializationVersion": 2,
+  "settingsParts": [
+    {
+      "suppressions": [
+        {
+          "moduleID": null,
+          "documentID": null,
+          "errorCodeFilter": "CW0114"
+        },
+        {
+          "moduleID": null,
+          "documentID": null,
+          "errorCodeFilter": "CW0055"
+        },
+        {
+          "moduleID": null,
+          "documentID": null,
+          "errorCodeFilter": "CW0029"
+        },
+        {
+          "moduleID": "16747dc6-b6b7-42ae-aabf-255dca2aeeaf",
+          "documentID": "4a8475b3-14cb-4100-8963-58f2fd3a0be8",
+          "errorCodeFilter": "CW0094"
+        },
+        {
+          "moduleID": null,
+          "documentID": null,
+          "errorCodeFilter": "CE0555"
+        },
+        {
+          "moduleID": null,
+          "documentID": null,
+          "errorCodeFilter": "CW0094"
+        }
+      ],
+      "suppressAppStoreWarnings": false,
+      "showSuppressionInfo": false,
+      "type": "Mendix.Modeler.Suppressions.SuppressionRules, Mendix.Modeler.Core, Version=10.12.1.0, Culture=neutral, PublicKeyToken=null"
+    },
+    {
+      "suppressions": [],
+      "disabledBestPractices": [],
+      "readRecommendations": [],
+      "suppressedRecommendations": [],
+      "hasShownRecommendationsNotificationForThisApp": true,
+      "type": "Mendix.Modeler.MxAssist.PerformanceBot.Serialization.Configuration.PerformanceBotConfiguration, Mendix.Modeler.MxAssist.PerformanceBot.Serialization, Version=10.12.1.0, Culture=neutral, PublicKeyToken=null"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+.asset {
+    margin-bottom: 16px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    background: #f9f9f9; /* Light background */
+
+    .asset-header {
+        padding: 16px;
+        background-color: #0078d7; /* Primary blue color */
+        color: #fff; /* White text for contrast */
+        font-size: 14px;
+        font-weight: bold;
+
+        .asset-type {
+            font-size: 11px;
+            font-weight: bold;
+            float: right;
+            margin-top: -4px;
+            padding: 4px 8px;
+            text-transform: uppercase;
+            color: #333; /* Dark gray text */
+            border: 1px solid #333; /* Matching border */
+            border-radius: 12px; /* Rounded corners */
+            background-color: #ffc107; /* Warning yellow background */
+        }
+    }
+
+    .asset-content {
+        padding: 16px;
+        font-size: 14px;
+        color: #555; /* Medium gray for text */
+    }
+
+    .asset-footer {
+        padding: 16px;
+        background-color: #e9ecef; /* Light gray background */
+        color: #333; /* Darker gray for text */
+        text-align: right; /* Align footer text to the right */
+    }
+
+    .asset-img {
+        margin: auto;
+        max-width: 100%; /* Ensure image doesn't overflow */
+        display: block;
+    }
+}
+.cardaction {
+    -webkit-box-shadow: 0 10px 16px -8px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 10px 16px -8px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 10px 16px -8px rgba(0, 0, 0, 0.16);
+
+    a,
+    .glyphicon {
+        color: $brand-inverse;
+    }
+}
+/* Style for the entire container */
+
+
+/* Style for the username and password input fields */
+.username, .password {
+    display: block; /* Full width */
+    width: 100%; /* Stretch to container */
+    padding: 12px; /* Slightly larger padding */
+    margin: 10px 0; /* Space between fields */
+    border: 1px solid #b0bec5; /* Light blue-gray border */
+    border-radius: 6px; /* Rounded corners */
+    font-size: 16px; /* Standard font size */
+    font-family: Arial, sans-serif; /* Clean font */
+    background-color: #f0f4f8; /* Soft light-gray background */
+}
+.username:hover, .password:hover {
+    border-color: #607d8b; /* Blue-gray border on hover */
+    background-color: #e8f1f7; /* Slight blue background change */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+/* Style for the buttons */
+.signIn {
+    background-color: #8dccf4; /* Solid green */
+    color: #ffffff; /* White text */
+    border: none; /* Remove default border */
+    padding: 12px 20px; /* Inner padding */
+    margin: 10px 5px; /* Space between buttons */
+    font-size: 16px; /* Legible font size */
+    font-family: Arial, sans-serif; /* Clean font */
+    border-radius: 6px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for buttons */
+.signIn:hover {
+    background-color: #388e3c;  /* Darker blue on hover */
+}
+.card1.bargraph {
+    margin: 10px; /* Add some spacing for visual appeal */
+    overflow: hidden; /* Prevent content overflow */
+    border: 1px solid #ddd; /* Add a subtle border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Add padding inside the card */
+     /* Light gray background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Progress circle container */
+.card1.progress-circle {
+    margin: 10px auto; /* Center and add spacing */
+    display: flex; /* Flexbox for alignment */
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    padding: 16px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a border */
+    border-radius: 50%; /* Make it circular */
+    /* Light blue background for distinction */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Ensure the content inside cards maintains aspect ratio */
+.card1 > * {
+    max-width: 100%; /* Ensure content doesn't overflow horizontally */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center content */
+    display: block; /* Ensure it behaves like a block-level element */
+}
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+    .layout1 {
+        flex-direction: column; /* Stack items vertically */
+        gap: 16px; /* Add spacing between items */
+    }
+    
+    .card1 {
+        width: 100%; /* Make cards take full width */
+        margin: 10px 0; /* Add spacing between stacked cards */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow for smaller screens */
+    }
+}
+
+/* Add a hover effect for the cards */
+.card1:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+    transform: scale(1.02); /* Slight scaling effect */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+/* Primary form container */
+/* Form containers */
+/* General container styling for better layout */
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .card3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .barcode-section {
+        width: 100%;
+    }
+}

@@ -1,0 +1,1 @@
+define(["GridSearch/widget/Comparison", "GridSearch/widget/GridFilter", "GridSearch/widget/Dropdown", "GridSearch/widget/LocalCheckbox", "GridSearch/widget/GridSearch", "GridSearch/widget/ResetButton", "GridSearch/widget/AssociationCheckbox", "GridSearch/widget/ActiveFilters", "GridSearch/widget/AnySearch", "GridSearch/widget/ButtonFilter"], {});
